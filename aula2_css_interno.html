@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS INTERNO</title>
+    <!--O CSS interno é criado logo após a tag <title>, como está a baixo-->
+    <style>
+        body{
+            background-color: yellow;
+        }
+
+        h1{
+            color: brown;
+            font-size: 80px;
+        }
+    </style>
+</head>
+<!--CSS interno é aqule que damos os comandos dentro da página onde elas ocorram-->
+<!--No CSS interno todas as tags onde foi colocado uma formatação CSS irão ficar com a mesma configuração, Ex. se colocarmos css em uma tag h1, então todos os h1 irão receber a mesma formatação-->
+<!--Quando colocamos um CSS interno ele só valerá dentro da pagina onde ele esta inserido-->
+<body>
+    <h1>Meu css interno para testes</h1>
+    <h2>outro componente de CSS interno</h2>
+
+    <!--Quando colocamos o CSS dentro da tag ele terá prioriade sobre o CSS interno-->
+    <h1 style="color: red; font: size 40px">prioridade no CSS</h1>
+</body>
+</html>
