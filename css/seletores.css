@@ -1,0 +1,30 @@
+*{
+ padding: 20px;
+}
+
+body{
+    background: rgb(248, 224, 4);
+}
+
+/* o seletor apenas com a tag, todas as configurações serão aplicados a todas as tags iguais, a exeplo da tag (p)*/
+
+/*podemos tambem agrupar seletores ex. h1,P{}*/
+
+p{
+    color: rgb(84, 84, 141);
+}
+
+.center{
+    text-align: center;
+}
+
+.azul{
+    color: rgb(24, 9, 228);
+}
+
+#tamanho{
+    font-size: 45px;
+    background-color: brown;
+
+}
+
