@@ -1,0 +1,22 @@
+.primeiro{
+    border-left: 5px double yellow ;
+    border-top: 5px solid red;
+    border-right: 5px solid green;
+    border-bottom: 5px solid pink;
+    color: red;
+    text-align: center;
+}
+
+.segundo{
+    border: 5px dotted blue;
+    color: greenyellow;
+    text-align: center;
+}
+/*para fazer a borda arredondada se coloca outra propriedade border além da já existente*/
+.terceiro{
+    border: 7px dashed rosybrown;
+    border-radius: 20px;
+    color: brown;
+    text-align: center;
+    background-color: rgb(253, 5, 5);
+}
