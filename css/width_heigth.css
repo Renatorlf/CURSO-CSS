@@ -1,0 +1,7 @@
+/*existe também a propriedade max-width que define a largura máxima que um elemento pode ter, esta propriedade serve para fazer elementos responsivos*/
+
+.teste{
+    background: burlywood;
+    width: 100px;
+    height: 500px;
+}
