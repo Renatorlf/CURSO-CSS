@@ -1,0 +1,19 @@
+/*A propriedade text-align é utilizada para posicionar o texto, a direita, a esquerda, ao centro e jutificado*/
+
+/*A propriedade text-decoretion, significa decoração do texto, geralmente utilizado para decorar os textos nos links
+- o texte-decoretion tem outra propriedades que colocam linhas sobre o texto, linhas abaixo do texto e sublinhado
+-text-transform, tem atributos que deixam o testo em maiusculo e minusculo
+-text-indent, faz o efeito de paragrafor recuando a primeira linha
+-letter-spacing, da uma espoaço entre as letras do texto
+-line-heigth, da um espaço entre as linhas
+-word-spacing, da um espaçamento entre as palavras*/
+
+p{
+    color: blue;
+    text-align: justify;
+    text-transform: uppercase;
+    text-indent: 20px;
+    letter-spacing: 5px;
+    line-height: 2;
+    word-spacing: 10px;
+}
