@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+
+h1{
+    text-align: center;
+    background: yellowgreen;
+    font-size: 50px;
+    color: rgb(253, 249, 4);
+    font-family: "Londrina Sketch", sans-serif;
+}
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 40px;
+    font-style: italic;
+    font-weight: bold;
+}
