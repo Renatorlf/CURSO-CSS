@@ -1,0 +1,62 @@
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;border-radius: 10px;
+
+}
+
+a.botão1{
+    background: darkgreen;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border: 4px solid rgb(245, 201, 5);
+    border-radius: 5px;
+}
+/*para decorar o botão dando um efeito que quando passa o mouse em cima, repete a classe e coloca dois pontos e a função (:hover)*/
+
+a.botão1:hover{
+    background: rgb(4, 252, 4);
+    padding: 13px;
+}
+
+a.botão2{
+    text-decoration: none;
+    padding: 10px;
+    border: 5px double blue;
+    color: blueviolet;
+}
+
+a.botão2:hover{
+    text-decoration: underline;
+    padding: 8px;
+    background: blue;
+    color: white
+    ;
+}
+
+a.botão3{
+    color: black;
+    text-decoration: none;
+}
+
+a.botão3:hover{
+    color: rgb(74, 238, 9);
+    border-bottom: 3px solid red;
+    font-size: 13px;
+}
+
+a.botão4{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+
+a.botão4:hover{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+a.botão5{
+    cursor: wait;
+}
