@@ -1,0 +1,53 @@
+.container{
+    position: relative;
+    display: inline-block;
+    background: blue;
+    width: 100%;
+    height: 400px;
+}
+/*Position-relative- Utilizado para fazer camadas na página. unido as proprioedades, (left, right, top e bottom), você consegue mover sua div*/
+
+/*Position-fixed- Utilizado para deixar um elemento fixo na tela mesmo quando há uma barra de rolagem. podemos utilizar as propriedades (left, right, top e bottom), para posicionar o elemento no local desejado.*/
+
+/*Position-absolute- Move o elemento dentro da div pai ou container, mas a div pai tem que ter uma position definida, que pode ser como (position-absolute). podemos utilizar as propriedades (left, right, top e bottom)*/
+
+/*Position-sticky - ele move dentro da div pai quando necessita utilizar a barra de rolagem para baixar a tela*/
+
+.div1{
+    position: relative;
+    width: 30%;
+    height: 100px;
+    background: yellow;
+    display: inline-block;
+    top: 5px;
+}
+
+.div2{
+    position: sticky;
+    top: 0;
+    width: 30%;
+    height: 100px;
+    background: rgb(255, 47, 168);
+    display: inline-block;
+}
+
+.div3{
+    width: 30%;
+    height: 100px;
+    background: rgb(62, 215, 226);
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    right: 30%;
+}
+
+.whats{
+    background: green;
+    color:white;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+}
