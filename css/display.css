@@ -1,0 +1,36 @@
+.borda{
+    border: 1px solid red;
+}
+
+.formas{
+    border: 1px solid blue
+}
+
+p{
+    display: inline;
+}
+
+/*(Display:none;) faz com que o bloco desapareça mas fique ativo, geralmente e utilizado para fazer efeito de aparecer desaparecer com o bloco em determinada ação */ 
+#p1:hover{
+    display: none;
+}
+
+/*O Display do tipo em linha não aceita formatação tipo altura e largura por exemplo, para termos um Display em linha mais que aceite formatações temos que utilizar o (display:inline-block;)*/
+
+.azul{
+    background: blue;
+}
+
+.vermelho{
+    background: red;
+}
+
+.verde{
+    background: green;
+}
+
+div{
+    display: inline-block;
+    width: 30%;
+    height: 150px;
+}
