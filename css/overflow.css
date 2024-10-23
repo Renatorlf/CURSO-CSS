@@ -1,0 +1,20 @@
+/*Overflow-visible: mostra o conteudo mesmo que esteja fora do espaço da div*/
+
+/*Overflow-hidden: mostra apenas o que esta dentro do espaço da div mesmo tendo mais conteúdos*/
+
+/*Overflow-scroll: coloca uma barrinha de rolagem na div, para que todo o conteúdo seja visto dentro dadiv*/
+
+/*Overflow-auto: funciona parecido com o overflow-scroll, é colocado uma barrinha de rolagem mas só quando o que esta dentro da divi ultrapassa o tamanho determinado*/
+
+.exemplo{
+    background: red;
+    height: 150px;
+    overflow: scroll;
+}
+
+h1{
+    text-align: center;
+    background: #f77272ea;
+    border-radius: 10px;
+    color: aquamarine;
+}
