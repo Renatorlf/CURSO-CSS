@@ -1,0 +1,44 @@
+.container{
+    border: 1px solid red;
+    overflow: auto;
+}
+
+img{
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+h3{
+    clear: both;
+}
+
+ul{
+    background-color: brown;
+    padding: 20px;
+}
+
+li{
+    display: inline-block;
+    
+}
+
+li a{
+    color: blueviolet;
+    text-decoration: none;
+    padding: 20px;
+}
+
+li a:hover{
+    background: #ccc;
+    color: rgb(143, 250, 3);
+}
+
+.login{
+    float: right;
+}
+
+.login a:hover{
+    background: orangered;
+}
