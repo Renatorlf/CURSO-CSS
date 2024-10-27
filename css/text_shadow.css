@@ -1,0 +1,24 @@
+/*Shadow são sombras colocadas nos textos*/
+
+h1{
+    text-shadow: 3px 2px 5px red;
+}
+
+.branco{
+    color: white;
+    text-shadow: 2px 2px 4px rgb(10, 10, 10);
+}
+
+/*Utilizando dias sombras ao mesmo tempo*/
+.multipla{
+    color: black;
+    text-shadow: 0 0 6px, 2px 2px 5px yellow;
+}
+
+.caixa{
+    text-align: center;
+    width: 40%;
+    height: 300px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
