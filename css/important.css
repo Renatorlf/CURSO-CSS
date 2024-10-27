@@ -1,0 +1,12 @@
+#meuid{
+    color: red;
+}
+
+.minhaclasse{
+    color: blue;
+}
+
+/*Utilizando o (!important) seu seletor onde utiliza important se torna prioridade de especificidade*/
+h1{
+    color: yellowgreen !important;
+}
