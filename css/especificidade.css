@@ -1,0 +1,23 @@
+
+/*A especificidade é calculada com base em quatro categorias de seletores, em ordem de importância:
+
+1 - Inline styles: Estilos aplicados diretamente no elemento HTML (atributo style). Têm a maior especificidade.
+2 - IDs: Seletores que começam com o símbolo #.
+3 - Classes, atributos e pseudo-classes: Seletores que começam com um ponto (.) ou um colchete ([ ]), ou pseudo-classes como :hover e :active.
+4 - Elementos e pseudo-elementos: Seletores que correspondem a nomes de elementos HTML (como p, div) ou pseudo-elementos como ::before e ::after.
+
+para aumentar a especificidade você pode:
+1 - usar seletores mais detalhado, como class e IDs
+2 - combinar diferentes tipos de seletores para aumentar a especificidade
+3 - Usar o operador (!important). Obs. O uso excessivo do !important pode tornar seu CSS difícil de manter. Use-o apenas em casos excepcionais*/
+.vermelho{
+    background: red;
+}
+
+h1.vermelho{
+    background: blueviolet;
+}
+
+h1{
+    background-color: yellow;
+}
