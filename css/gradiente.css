@@ -1,0 +1,28 @@
+/*Para fazer o efeito gradiente se utiliza a função (linear-gradient) dentro do background-image*/
+
+/*Colocando o efeito sem expecificar a direção, naturalmente será de cima para baixo*/
+
+/*Para mudar a direção do efeito utilizamos (to right, to left, to bottom right, to bottom left) ou fazer outras combinações
+- podemos támbem definir as direções utilizando(deg) e definir a inclinação em graus, ex (45deg)*/
+
+/*Para fazer um feito em circulo utiliza (radial-gradiente), o feito pode ser modificado utilizando pocentagem junto da cor. ex(5% blue*/
+
+#gradiente1{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    background-image:linear-gradient(blue,red);
+}
+
+#gradiente2{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    background-image:linear-gradient(to right, blue,red);
+}
+
+#gradiente3{
+    width: 100%;
+    height: 300px;
+    background-image:linear-gradient(to left bottom, blue,red);
+}
