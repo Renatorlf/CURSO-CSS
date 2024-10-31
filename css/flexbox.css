@@ -1,0 +1,31 @@
+/*O display flex trabalha de forma mais facilitada a forma como posicionamos nossas divs*/
+
+/*O Flexbox pode ser utilizado junto dentro das mediaqueries para os intens se posicionarem de acordo com o tamanho da tela*/
+
+/*
+-flex-direction: column; deixa os itens em coluna
+- flex-direction: row; fica com os itens um ao lado do outro 
+- flex-wrap: tem a função de deixar os intens alguns intem fora da div pai, quando se coloca mais itens do que o tamanho permitido para div pai, os intens restante ficaram fora da div pai*/
+
+/*para trabalhar com o alinhamneto dos elementos dentro da div pai se utiliza o (justify-content) e suas propriedades*/
+
+/*Com o (align-items) podemos posicionar nossos intes em qualquer lugar dentro do espaço da div pai. esquerda, direita, centro...*/
+
+
+.flexPai{
+    background: blue;
+    height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+/*flex-grow: alinha os intens um por um,*/
+.flexPai div{
+    flex-grow: 1;
+    background: white;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+}
