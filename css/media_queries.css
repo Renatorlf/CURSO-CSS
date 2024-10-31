@@ -1,0 +1,50 @@
+/*Os efeitos css podem ser feitos fora das Mediaqueries, e só colocar dentro das mediaqueries o que te intereça para determinada tamanho de tela. como no exemplo abaixo*/
+
+h2{
+    color: coral;
+    font-size: 14px;
+}
+
+
+/*Smartphones (600px para baixo)*/
+@media only screen and (max-width: 600px){
+    body{
+        background-color: blue;
+    }
+    
+}
+
+/*Dispositivos um pouco maiores, mas ainda pequenos*/
+@media only screen and (min-width: 600px){
+    body{
+        background-color: green;
+    }
+    
+}
+/*Dispositivos médios (Tablets deitados, 768px)*/
+@media only screen and (min-width: 768px){
+    body{
+        background-color: yellow;
+    }
+
+    h2{
+        font-size: 30px;
+        color: darkturquoise;
+    }
+    
+}
+
+/*Dispositivos largos (laptops,desktops, 992px)*/
+@media only screen and (min-width: 992px){
+    body{
+        background-color: red;
+    }
+    
+}
+/*Super largos(Telas maiores laptops, desktops, 1200px)*/
+@media only screen and (min-width: 1200px){
+    body{
+        background-color: brown;
+    }
+    
+}
